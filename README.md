@@ -11,7 +11,7 @@
 * `Baidu AIP SDK( aip-python-sdk-2.2.15 )`
 
 ## How To Run On RasPi 4B
-you need to install the dependencies firstly
+1. Firstly you need to install some dependencies
 > $ pip3 install apscheduler
 
 > $ cd aip-python-sdk-2.2.15
@@ -20,7 +20,9 @@ you need to install the dependencies firstly
 
 > $ python3.7 setup.py install
 
-then run it
+2. Then open the `config.py` file and add your `Baidu API` and `ServerChan` configuration information into it.
+
+3. Finally run it
 > $ python3.7 system.py
 
 ## Thanks
